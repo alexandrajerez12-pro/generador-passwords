@@ -1,49 +1,38 @@
-# Generador de Contraseñas 🔐
+# 🔐 Generador de Contraseñas Seguro
 
-Este proyecto genera contraseñas seguras usando Python, combinando letras mayúsculas, minúsculas, números y caracteres especiales.
-
----
-
-## 📋 Requisitos
-
-- Python 3.x
+Aplicación en Python que genera contraseñas seguras utilizando el módulo `secrets`, ideal para entornos donde la seguridad es importante.
 
 ---
 
-## 🚀 Cómo usar
+## 🚀 Características
 
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/alexandrajerez12-pro/generador-passwords.git
-   ```
-
-2. Entra a la carpeta:
-   ```bash
-   cd generador-passwords
-   ```
-
-3. Ejecuta el programa:
-   ```bash
-   python main.py
-   ```
-
----
-
-## 📌 Ejemplo de salida
-
-```
-Tu contraseña segura es: 2v>CUR(~E*YQ
-```
+- Generación de contraseñas seguras
+- Longitud personalizable
+- Opción de incluir símbolos
+- Validación de entrada del usuario
 
 ---
 
 ## 🛠️ Tecnologías
 
 - Python 3
-- Módulo `secrets` / `random`
-- Módulo `string`
+- Módulos estándar: `secrets`, `string`
 
 ---
+
+## ▶️ Instalación y uso
+
+```bash
+git clone https://github.com/alexandrajerez12-pro/generador-passwords.git
+cd generador-passwords
+python main.py
+```
+
+-## 📌 Ejemplo de salida
+
+```
+Tu contraseña segura es: 2v>CUR(~E*YQ
+```
 
 ## 👤 Autor
 
